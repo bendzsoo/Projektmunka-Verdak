@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(187, 1, 39);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(213,6,6,1) 100%);
     color: rgb(233, 230, 230);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
