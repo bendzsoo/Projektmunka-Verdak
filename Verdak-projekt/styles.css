@@ -75,3 +75,13 @@ header h6{
     color: white;
     transform: rotateY(180deg);
   }
+
+  .foto{
+    float: right;
+    margin: 0px 0px 20px 20px;
+
+  }
+
+  .card{
+    text-align: left;
+  }
