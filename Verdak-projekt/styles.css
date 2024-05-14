@@ -40,8 +40,6 @@ header h6{
     width: 660px;
     height: 550px;
     perspective: 1000px;
-    border: 10px;
-    border-radius: 30%;
   }
   
   .flip-card-inner {
