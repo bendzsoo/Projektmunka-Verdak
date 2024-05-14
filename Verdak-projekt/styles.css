@@ -40,8 +40,6 @@ header h6{
     width: 660px;
     height: 550px;
     perspective: 1000px;
-    border: 10px;
-    border-radius: 30%;
   }
   
   .flip-card-inner {
@@ -75,6 +73,7 @@ header h6{
     color: white;
     transform: rotateY(180deg);
   }
+<<<<<<< HEAD
   
   .bg-black{
     background-color: rgba(112, 36, 36, 0.363);
@@ -134,4 +133,15 @@ header h6{
 
   li{
     list-style: none;
+=======
+
+  .foto{
+    float: right;
+    margin: 0px 0px 20px 20px;
+
+  }
+
+  .card{
+    text-align: left;
+>>>>>>> 81080ebe4897af0f5fecd716d54ed7306c0cd895
   }
