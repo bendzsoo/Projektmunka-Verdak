@@ -1,6 +1,9 @@
 body{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(213,6,6,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     color: rgb(233, 230, 230);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -72,68 +75,7 @@ header h6{
     color: white;
     transform: rotateY(180deg);
   }
-<<<<<< HEAD
   
-  .bg-black{
-    background-color: rgba(112, 36, 36, 0.363);
-  }
-
-  #logo{
-    width: 140px;
-    height: 110px;
-    border-radius: 4px;
-  }
-
-  .navbar-brand{
-    padding: 14px 20px;
-    font-size: 16px;
-  }
-
-  .navbar-nav{
-    width: 100%;
-  }
-
-  .nav-item{
-    padding: 6px 14px;
-    text-align: center;
-  }
-
-  .nav-link{
-    padding-bottom: 10px;
-  }
-
-  .v-line{
-    background-color: gray;
-    width: 1px;
-    height: 20px;
-  }
-
-  .navbar-collapse.collapse.in{
-    display: block !important;
-  }
-
-  @media (max-width: 576px) {
-    .nav-item{
-      width: 100%;
-      text-align: left;
-    }
-    .v-line{
-      display: none;
-    }
-  }
-
-  li a{
-    text-decoration: none;
-  }
-
-  nav a{
-    text-decoration: none;
-  }
-
-  li{
-    list-style: none;
-  }
-
   .foto{
     float: right;
     margin: 0px 0px 20px 20px;
@@ -142,6 +84,16 @@ header h6{
 
   .card{
     text-align: left;
->>>>>> 81080ebe4897af0f5fecd716d54ed7306c0cd895
 
+}
+
+@media (max-width: 991px) {
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.navbar-dark{
+  background-color: rgba(184, 166, 166, 0.555);
 }
