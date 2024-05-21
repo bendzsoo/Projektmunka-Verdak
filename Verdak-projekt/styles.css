@@ -97,3 +97,13 @@ header h6{
 .navbar-dark{
   background-color: rgba(184, 166, 166, 0.555);
 }
+
+.cars_logo{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffc107;
+}
+
+a:hover{
+  font-size: larger;
+}
