@@ -23,7 +23,7 @@ function submitAnswers() {
 	}
 	
 	//Set Correct Answers
-	var answers = ["b","a","d","b","d","a","a","a","a","a"];
+	var answers = ["c","b","d","a","b","b","c","a","c","c"];
 	
 	//Check Answers
 	for(i=1; i<=total; i++) {
