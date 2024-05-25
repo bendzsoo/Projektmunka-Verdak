@@ -1,0 +1,65 @@
+body {
+	background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(213,6,6,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: rgb(233, 230, 230);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#container {
+	width: 60%;
+	background: rgba(0, 0, 0, 0.3);
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+}
+
+header {
+	text-align: center;
+	border-bottom: #fff dashed 1px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header p {
+	padding: 0;
+	margin-top: 5px;
+	color: #000;	
+}
+
+section {
+	min-height: 400px;
+}
+
+footer {
+	text-align: center;
+}
+
+input[type='submit'] {
+	background: #0099e0;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+form h3 {
+	margin: 20px 0 10px 0;
+}
+
+#results h3 {
+	background: #0099e0;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#results span {
+	color: #000;
+	font-weight: bold;
+}
