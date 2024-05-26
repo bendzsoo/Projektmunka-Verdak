@@ -147,10 +147,6 @@ input, .btn{
   transform: translateZ(-2%) scale(1.2);
 }
 
-#nagy {
-  font-size: 500%;
-}
-
 #wallpaper {
   width: 100%;
   overflow-x: hidden;
@@ -185,6 +181,11 @@ p{
   width: 75%;
   align-content: center;
   margin: auto;
+}
+
+.chaihong{
+  font-weight: bold;
+  font-size: 280%;
 }
 
 th, td {
