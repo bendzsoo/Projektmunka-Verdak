@@ -190,10 +190,11 @@ p{
 
 th, td {
   border-bottom: 1px solid #ddd;
-  color: white;
+ color: #ddd; 
 }
 
-tr:hover {background-color:  rgb(255, 202, 104);}
+tr:hover {background-color:  rgb(233, 180, 5);
+color: black;}
 
 th {
   background-color: #9c0303;
