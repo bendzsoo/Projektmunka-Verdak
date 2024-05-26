@@ -177,3 +177,13 @@ p{
   padding: 18px;
 }
 
+.carousel-item{
+  text-shadow: 2px 2px black;
+}
+
+#carouselExampleCaptions{
+  width: 75%;
+  align-content: center;
+  margin: auto;
+}
+
