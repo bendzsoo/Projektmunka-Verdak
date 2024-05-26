@@ -187,3 +187,14 @@ p{
   margin: auto;
 }
 
+th, td {
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+tr:hover {background-color:  rgb(255, 202, 104);}
+
+th {
+  background-color: #9c0303;
+  color: white;
+}
