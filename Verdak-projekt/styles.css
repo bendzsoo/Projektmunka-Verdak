@@ -7,8 +7,8 @@ body{
     color: rgb(233, 230, 230);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    overflow-x: hidden;
 }
-
 h1{
     color: rgb(255, 202, 104);
 }
@@ -170,3 +170,10 @@ input, .btn{
 p{
   color: white;
 }
+
+.carousel-item img{
+  opacity: 0.8;
+  border-radius: 60px;
+  padding: 18px;
+}
+
