@@ -1,97 +1,115 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verdák - Kezdőlap</title>
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdák - Kezdőlap</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="row">
-            <div class="col">     
-                    <h6  class="d-none d-sm-block p-2 text-center align-middle">Verdák - Kezdőlap</h6>
-            </div>
+  <header>
+    <div class="row">
+      <div class="col">
+        <h6 class="d-none d-sm-block p-2 text-center align-middle">Verdák - Kezdőlap</h6>
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+
+      <a class="navbar-brand fs-4 cars_logo" href="index.html">Cars</a>
+
+
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title active" id="offcanvasNavbarLabel">Cars</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-    </header>
-    
-     
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          
-
-            <a class="navbar-brand fs-4 cars_logo" href="index.html">Cars</a>
-          
-
-          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
 
-          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="mcqueen.html">Villám McQueen</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="szereplo.html">Szereplők</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="rolunk.html">Rólunk</a>
+            </li>
+          </ul>
 
-
-            <div class="offcanvas-header text-white border-bottom">
-              <h5 class="offcanvas-title active" id="offcanvasNavbarLabel">Cars</h5>
-              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-
-
-            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
-                <li class="nav-item mx-2">
-                  <a class="nav-link" aria-current="page" href="mcqueen.html">Villám McQueen</a>
-                </li>
-                <li class="nav-item mx-2">
-                  <a class="nav-link" href="szereplo.html">Szereplők</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="rolunk.html">Rólunk</a>
-                  </li>
-              </ul>
-              
-              <div class="d-flex flex-column justify-content-center align-items-center gap-3">
-                <a href="quiz.html" class="text-white text-decoration-none px-3 py-1 rounded-4 bg-warning" target="_blank">Teszt</a>
-              </div>
-
-            </div>
+          <div class="d-flex flex-column justify-content-center align-items-center gap-3">
+            <a href="quiz.html" class="text-white text-decoration-none px-3 py-1 rounded-4 bg-warning"
+              target="_blank">Teszt</a>
           </div>
+
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 
 
-  
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="10">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="5">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="https://www.disneyplus.com/hu-hu/movies/cars/41KYquQjLwge" target="_blank"><img src="cars1_slide.jpg" class="d-block w-100" alt="Verdák 1" title="Verdák 1"></a>
+        <a href="https://www.disneyplus.com/hu-hu/movies/cars/41KYquQjLwge" target="_blank"><img src="cars1_slide.jpg"
+            class="d-block w-100" alt="Verdák 1" title="Verdák 1"></a>
         <div class="carousel-caption d-none d-md-block">
           <h5><strong>Verdák 1</strong></h5>
-          <p>A "Verdák 1"-ben Villám McQueen, a versenyautó, megtanulja a barátság és az alázat fontosságát, miután egy kisvárosban reked</p>
+          <p>A "Verdák 1"-ben Villám McQueen, a versenyautó, megtanulja a barátság és az alázat fontosságát, miután egy
+            kisvárosban reked</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="https://www.disneyplus.com/hu-hu/movies/cars-2/1Evb1neuySt0" target="_blank"><img src="cars2_slide.jpg" class="d-block w-100" alt="Verdák 2" title="Verdák 2"></a>
+        <a href="https://www.disneyplus.com/hu-hu/movies/cars-2/1Evb1neuySt0" target="_blank"><img src="cars2_slide.jpg"
+            class="d-block w-100" alt="Verdák 2" title="Verdák 2"></a>
         <div class="carousel-caption d-none d-md-block">
           <h5><strong>Verdák 2</strong></h5>
-          <p>A "Verdák 2"-ben Villám McQueen és barátja, Matuka, részt vesznek egy világkörüli versenysorozaton, miközben Matuka egy kémkalandba keveredik</p>
+          <p>A "Verdák 2"-ben Villám McQueen és barátja, Matuka, részt vesznek egy világkörüli versenysorozaton,
+            miközben Matuka egy kémkalandba keveredik</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="https://www.disneyplus.com/hu-hu/movies/cars-3/2uwOWguXyJe4" target="_blank"><img src="cars3_slide.png" class="d-block w-100" alt="Verdák 3" title="Verdák 3"></a>
+        <a href="https://www.disneyplus.com/hu-hu/movies/cars-3/2uwOWguXyJe4" target="_blank"><img src="cars3_slide.png"
+            class="d-block w-100" alt="Verdák 3" title="Verdák 3"></a>
         <div class="carousel-caption d-none d-md-block">
           <h5><strong>Verdák 3</strong></h5>
-          <p>A "Verdák 3"-ban Villám McQueen a fiatalabb, gyorsabb versenyautók ellen küzd, hogy bizonyítsa, még mindig ő a legjobb</p>
+          <p>A "Verdák 3"-ban Villám McQueen a fiatalabb, gyorsabb versenyautók ellen küzd, hogy bizonyítsa, még mindig
+            ő a legjobb</p>
         </div>
       </div>
     </div>
@@ -104,6 +122,56 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <div>
+
+  <p class="hosszu">
+      Villám McQueen Világa
+      Villám McQueen, a Pixar Animation Studios által megalkotott népszerű autó, a "Verdák" (Cars) című filmek
+      főszereplője, egy ikonikus figura, akinek története világszerte elbűvölte a nézőket. A történet nem csupán egy
+      autó versenyeiről és győzelmeiről szól, hanem mélyebb tanulságokat hordoz a barátságról, az alázatról és az
+      önfelfedezésről. <br>
+<br>
+      Villám McQueen, a híres versenyautó, karrierje elején arrogáns és magabiztos volt, hiszen rendkívüli sebessége és
+      tehetsége gyorsan a csúcsra repítette. Az első filmben, a "Verdák" című alkotásban, McQueen a Piston Cup bajnokság
+      döntőjén találja magát, de egy váratlan esemény következtében Radiátor Springs kisvárosába kerül, ahol az élete
+      örökre megváltozik. Itt találkozik új barátokkal, mint például Matuka, a rozsdás vontatóautó, Sally, a bájos
+      Porsche, és Doc Hudson, a város bölcs és tapasztalt lakója, aki maga is egykor legendás versenyző volt. <br>
+<br>
+      Radiátor Springs lakóinak társaságában Villám McQueen megtanulja, hogy az élet nem csupán a győzelemről és a
+      sebességről szól. Doc Hudson segítségével ráébred, hogy a múlt hibáiból tanulni, mások tiszteletét elnyerni, és a
+      közösség fontosságát felismerni sokkal nagyobb érték, mint bármilyen trófea. Ez a kisváros, ahol a régi Route 66
+      varázsa még mindig él, alapjaiban változtatja meg McQueen világlátását. <br>
+<br>
+      A "Verdák" folytatásai tovább bővítik Villám McQueen világát. A második filmben nemzetközi kalandokba keveredik,
+      ahol versenyez a világ különböző pontjain, és kémekkel is kapcsolatba kerül. Ez a rész nemcsak a versenyzés
+      izgalmait mutatja be, hanem a barátság és a lojalitás mélyebb rétegeit is feltárja. A harmadik részben McQueennek
+      szembe kell néznie a versenypályán bekövetkezett változásokkal és az új generációs versenyautók kihívásaival. Az
+      idő múlásával szembesülve, Villám McQueen rájön, hogy a versenyzés világa mindig fejlődik, és hogy továbbra is
+      fontos szerepet játszhat, még ha nem is ő a leggyorsabb. <br>
+<br>
+      Villám McQueen története nemcsak a gyerekek, hanem a felnőttek számára is inspiráló. Az ő világában minden egyes
+      verseny, minden egyes útmutatás és minden egyes barát egy-egy lépés az önismeret és az igazi értékek felfedezése
+      felé. A "Verdák" sorozat üzenete egyértelmű: az életben nem mindig az a legfontosabb, hogy elsőként érjünk célba,
+      hanem az, hogy hogyan érjük el azt, és milyen kapcsolatokkal, tapasztalatokkal gazdagodunk az út során. <br>
+<br>
+      Villám McQueen világa tehát nem csupán egy mese, hanem egy olyan univerzum, amelyben az emberek – akár autók
+      formájában is – felfedezhetik a bennük rejlő lehetőségeket, megérthetik a közösség és a barátság jelentőségét, és
+      ráébredhetnek arra, hogy a valódi győzelem az, amikor önmagunkat meghaladva másokat is inspirálunk. <br>
+<br>
+
+
+
+
+
+    </p>
+  </div>
+
+
+  <footer>
+    <hr>
+    <p>Copyright &copy; 2024</p>
+  </footer>
 
 </body>
+
 </html>

@@ -37,10 +37,6 @@ section {
 	min-height: 400px;
 }
 
-footer {
-	text-align: center;
-}
-
 input[type='submit'] {
 	background: #0099e0;
 	border: 1px solid #fff;

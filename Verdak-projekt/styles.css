@@ -155,6 +155,8 @@ input, .btn{
   object-fit: cover;
   z-index: 1;
   transform: translateZ(1%);
+  border: solid 2px black;
+  margin-bottom: 50px;
 }
 
 .img-fluid {
@@ -199,4 +201,21 @@ color: black;}
 th {
   background-color: #9c0303;
   color: white;
+}
+
+.undervonal{
+  text-shadow: 2px 2px black;
+}
+
+footer {
+  text-align: center;
+}
+.hosszu{
+  width: 70%;
+  align-content: center;
+  margin: auto;
+}
+
+audio{
+  size: 30%;
 }
