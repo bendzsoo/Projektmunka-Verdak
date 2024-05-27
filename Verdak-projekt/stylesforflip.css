@@ -15,7 +15,7 @@
   .card {
     background: #222;
     cursor: default;
-    height: 300px;
+    height: 500px;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
     width: 100%;
@@ -23,6 +23,7 @@
     animation: giro 1s 1;
     border: solid 2px rgb(255, 202, 104);
     font-size: 85%;
+    margin: 10px;
   }
   
   .benya_card{
@@ -93,9 +94,10 @@
     color: #333;
     text-shadow: 0 0 1px #333;
   }
+
   
   .cardBox:nth-child(1) .card .back {
-    background: cornflowerblue;
+    background: rgb(59, 115, 219);
   }
   
   .cardBox:nth-child(2) .card .back {
