@@ -215,3 +215,7 @@ footer {
   align-content: center;
   margin: auto;
 }
+
+audio{
+  size: 30%;
+}
