@@ -75,7 +75,7 @@
   }
 
   .back h3{
-    color: rgb(216, 132, 54);
+    color: rgb(255, 202, 104);
     font-size: 125%;
   }
   
@@ -97,7 +97,8 @@
 
   
   .cardBox:nth-child(1) .card .back {
-    background: rgb(59, 115, 219);
+    background: rgb(51, 53, 58);
+    color: white;
   }
   
   .cardBox:nth-child(2) .card .back {
